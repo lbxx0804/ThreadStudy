@@ -12,11 +12,11 @@ public class MyThread extends Thread {
 
     @Override
     public void run(){
-        System.out.println("Run --- begin");
+        System.out.println("Run1 --- begin");
         System.out.println("Thread.currentThread().getName()=" + Thread.currentThread().getName());
         System.out.println("Thread.currentThread().isAlive()="+Thread.currentThread().isAlive());
         System.out.println("this.getName()="+this.getName());
         System.out.println("this.isAlive()="+this.isAlive());
-        System.out.println("Run --- end");
+        System.out.println("Run1 --- end");
     }
 }

@@ -1,6 +1,6 @@
 package com.kboss.threadstudy.p025;
 
-public class Run {
+public class Run1 {
     public static void main(String[] args) {
         MyThread myThread = new MyThread();
         myThread.start();
