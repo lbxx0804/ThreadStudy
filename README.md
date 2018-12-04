@@ -1,2 +1,2 @@
 # ThreadStudy
-线程学习
+多线程学习
