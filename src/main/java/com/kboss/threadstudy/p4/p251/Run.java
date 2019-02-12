@@ -9,7 +9,5 @@ public class Run {
         ThreadB threadB = new ThreadB(service);
         threadA.start();
         threadB.start();
-
-        HashMap
     }
 }
