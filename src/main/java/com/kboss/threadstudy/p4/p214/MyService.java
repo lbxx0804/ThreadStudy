@@ -13,8 +13,8 @@ public class MyService {
     public void set() {
         try {
             lock.lock();
-            while (hasValue) {
-                System.out.println("生产者等待");
+            while (hasValue == true) {
+                System.out.println("有可能生产者连续");
                 condition.await();
             }
             System.out.println("生产者");
@@ -31,7 +31,7 @@ public class MyService {
         try {
             lock.lock();
             while (hasValue == false) {
-                System.out.println("消费者等待");
+                System.out.println("有可能消费者连续");
                 condition.await();
             }
             System.out.println("消费者");
