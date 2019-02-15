@@ -1,4 +1,4 @@
-package com.kboss.threadstudy.p4.p251;
+package com.kboss.threadstudy.p4.p236;
 
 public class ThreadA extends Thread {
     private Service service;

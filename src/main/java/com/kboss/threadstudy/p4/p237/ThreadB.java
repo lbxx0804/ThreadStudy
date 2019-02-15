@@ -1,4 +1,4 @@
-package com.kboss.threadstudy.p4.p251;
+package com.kboss.threadstudy.p4.p237;
 
 public class ThreadB extends Thread {
     private Service service;
@@ -10,6 +10,6 @@ public class ThreadB extends Thread {
 
     @Override
     public void run() {
-        service.read();
+        service.write();
     }
 }

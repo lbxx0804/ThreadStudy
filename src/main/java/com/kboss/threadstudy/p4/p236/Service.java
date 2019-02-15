@@ -1,4 +1,4 @@
-package com.kboss.threadstudy.p4.p251;
+package com.kboss.threadstudy.p4.p236;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
@@ -11,7 +11,7 @@ public class Service {
                 lock.readLock().lock();
                 System.out.println("获得读锁:" + Thread.currentThread().getName() + " " +
                         " " + System.currentTimeMillis());
-                Thread.sleep(1000);
+                Thread.sleep(10000);
             } finally {
                 lock.readLock().unlock();
             }
